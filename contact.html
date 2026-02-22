@@ -1,57 +1,98 @@
 <!DOCTYPE html>
 <html lang="ro">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact - iON Security</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <a href="index.html"class="active">  Home</a>
-            </nav>
-            <section class="contact-container">
-            <div class="contact-info">
-                <h3>Informații de Contact </h3>
-                <p><strong>Adresă:</strong> Str. Cerna 18 Iasi </p>
-                <p><strong>Telefon:</strong> <a href="tel:0759360148"> 0759360148 </a></p>
-                <p><strong>Email:</strong> <a href="mailto:ion.securitate@gmail.com">ion.securitate@gmail.com</a></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - iON Security</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">iON Security</a>
+    <nav class="navbar">
+        <a href="index.html">Acasa</a>
+        <a href="about.html">Despre</a>
+        <a href="servicii.html">Servicii</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="menu-toggle"><i class='bx bx-menu'></i></div>
+</header>
+
+<section class="contact fade-in">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Informații de Contact</h2>
+            <p><strong>Adresă:</strong> Str. Cerna 18, Iași</p>
+            <p><strong>Telefon:</strong> <a href="tel:0759360148">0759360148</a></p>
+            <p><strong>Email:</strong> <a href="mailto:ion.securitate@gmail.com">ion.securitate@gmail.com</a></p>
+            <p>Ne găsești și pe rețelele sociale!</p>
+            <div class="socials">
+                <a href="https://facebook.com/ION Security" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/iONSecurit4555" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://linkedin.com/in/mrionutneculcea" target="_blank"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <div class="contact-form">
-                <h2>Trimite-ne un mesaj</h2>
-                <form action="#" method="post">
-                    <label for="name">Nume</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Mesaj</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    <button type="submit">Trimite</button>
-                </form>
-            </div>
-        </section>
-        <section class="map">
-    <h2>Ne găsești aici</h2>
-    <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678.2848759691996!2d27.56893564091665!3d47.155122140940115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb0ce8f28c73%3A0xb39b4036c54dc291!2zU3RyYWRhIE1pcmNlYSBjZWwgQsSDdHLDom4sIElhyJlp!5e0!3m2!1sro!2sro!4v1741561488234!5m2!1sro!2sro"
-                width="65%" 
-                height="250" 
-                style="border:1;" 
-                allowfullscreen="" 
-                loading="lazy">
-            </iframe>
-        </section>
+        </div>
+
+        <div class="contact-form">
+            <h2>Trimite-ne un mesaj</h2>
+            <form action="#" method="post">
+                <label for="name">Nume</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesaj</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="map fade-in">
+        <h2>Ne găsești aici</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678.2848759691996!2d27.56893564091665!3d47.155122140940115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb0ce8f28c73%3A0xb39b4036c54dc291!2zU3RyYWRhIE1pcmNlYSBjZWwgQsSDdHLDom4sIElhyJlp!5e0!3m2!1sro!2sro!4v1741561488234!5m2!1sro!2sro"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            class="map-iframe">
+        </iframe>
+    </div>
+</section>
+
+<!-- WhatsApp Fixed Button -->
+<a href="https://wa.me/40759360148" target="_blank" class="whatsapp-float">
+    <i class='bx bxl-whatsapp'></i>
+</a>
+
 <footer>
-    <div class="contact-info">
-        <p>Ne găsești și pe rețelele sociale!</p>
+    <p>&copy; 2025 Toate drepturile rezervate | iON Security</p>
 </footer>
-        
-        <!-- Font Awesome pentru iconițe (necesar) -->
-        <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
-        <footer>
-            <p>&copy; 2025 Toate drepturile rezervate | iON Security </p>
-        </footer>
-    
-    </body>
-    </html>
+
+<script>
+// Hamburger menu mobil
+const menuToggle = document.querySelector('.menu-toggle');
+const navbar = document.querySelector('.navbar');
+
+menuToggle.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
+
+// Scroll fade-in
+const faders = document.querySelectorAll('.fade-in');
+const appearOptions = { threshold: 0.1 };
+const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target);
+        }
+    });
+}, appearOptions);
+
+faders.forEach(fader => appearOnScroll.observe(fader));
+</script>
+
+</body>
+</html>
